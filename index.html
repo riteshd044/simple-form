@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="heading">
+        <h1>Web Development Internship</h1>
+        <h1>Assignment - I</h1>
+        <h4>AnExtraRep</h4>
+    </div>
+    <form id="myForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+
+    <label for="weight">Weight:</label>
+    <input type="number" id="weight" name="weight" required>
+
+    <label for="email">Email Id:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="healthReport">Upload Health Report:</label>
+    <input type="file" id="healthReport" name="healthReport" accept=".pdf" required>
+
+    <input type="submit" value="Submit">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
